@@ -2,11 +2,11 @@ class Fastlane < Formula
   desc "Easiest way to build and release mobile apps"
   homepage "https://fastlane.tools"
 #  url "https://github.com/fastlane/fastlane/archive/refs/tags/2.227.2.tar.gz"
-  url "https://github.com/fastlane/fastlane.git", branch: "visuallization/fastlane:fix/templateName-is-not-an-attribute-on-the-resource-profiles"
+  url "https://github.com/fastlane/fastlane.git", branch: "fix/templateName-is-not-an-attribute-on-the-resource-profiles"
   #sha256 "c85ca2e8bdd49e5f8c5c3e52ac76fae382dfa3a7ff61873b161841675d4fb2e8"
-  version "2.227.2-custom"
+  version "2.227.3-custom"
   license "MIT"
-  head "https://github.com/fastlane/fastlane.git", branch: "visuallization/fastlane:fix/templateName-is-not-an-attribute-on-the-resource-profiles"
+  head "https://github.com/fastlane/fastlane.git", branch: "fix/templateName-is-not-an-attribute-on-the-resource-profiles"
 
   livecheck do
     url :stable
