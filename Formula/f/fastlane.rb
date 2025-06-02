@@ -6,7 +6,9 @@ class Fastlane < Formula
   #sha256 "c85ca2e8bdd49e5f8c5c3e52ac76fae382dfa3a7ff61873b161841675d4fb2e8"
   version "2.227.3-custom"
   license "MIT"
-  head "https://github.com/fastlane/fastlane.git", branch: "fix/templateName-is-not-an-attribute-on-the-resource-profiles"
+#  head "https://github.com/fastlane/fastlane.git", branch: "fix/templateName-is-not-an-attribute-on-the-resource-profiles"
+  url "https://github.com/visuallization/fastlane.git", branch: "fix/templateName-is-not-an-attribute-on-the-resource-profiles"
+  head "https://github.com/visuallization/fastlane.git", branch: "fix/templateName-is-not-an-attribute-on-the-resource-profiles"
 
   livecheck do
     url :stable
